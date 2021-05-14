@@ -1,7 +1,9 @@
 package main
 
-import "golangdemo/func/routes"
+import (
+	"golangdemo/func/api"
+)
 
 func main() {
-	routes.Run()
+	api.New()
 }
