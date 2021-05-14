@@ -36,7 +36,7 @@ func New() {
 	e := echo.New()
 
 	e.Use(middleware.LoggerWithConfig(middleware.LoggerConfig{
-		Format: "method=${method}, uri=${uri}, status=${status}",
+		Format: "method=${method}, uri=${uri}, status=${status}\n",
 	}))
 
 	e.GET("/user", h.GetName)
