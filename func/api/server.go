@@ -53,6 +53,7 @@ func (h *UserHandler) GetName(c echo.Context) (err error) {
 	defer rows.Close()
 
 	var CheckUse []route.UserCheck
+	log.Println("Hello")
 
 	for rows.Next() {
 		var data route.UserCheck
