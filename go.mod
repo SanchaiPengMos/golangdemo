@@ -6,6 +6,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/labstack/echo v3.3.10+incompatible // indirect
 	github.com/labstack/echo/v4 v4.3.0
+	github.com/lib/pq v1.10.1 // indirect
 	github.com/spf13/viper v1.7.1 // indirect
 	gorm.io/gorm v1.21.9 // indirect
 )
